@@ -1,0 +1,200 @@
+
+body{
+  margin:0px;
+  padding:0px;
+ background: #E4E0E1;
+  height: 100%;
+  width: 100%;
+}
+.quiz-app{
+  margin: 8px auto;
+  height: 560px;
+  width: 330px;
+  background-color:#E4E0E1;
+  border-style: solid;
+  border-width: 18px;
+  border-color:#E4E0E1;
+  border-radius: 30px;
+}
+#code{
+  margin-left: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color:black;
+}
+.time-bar{
+  margin:30px auto;
+  width: 300px;
+  height:30px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: #493628;
+  background-color:#493628;
+}
+.time-left{
+  width: 300px;
+  height:30px;
+  border-style: none;
+  border-radius: 30px;
+  border-color: #AB886D;
+  background-color: #AB886D;
+
+  
+}
+.time{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+.q-text{
+  color:#493628;
+  text-align: left;
+  margin-left:20px;
+  margin-top: 30px;
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+#question{
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  color:#AB886D;
+  padding:10px 20px 10px 20px;
+
+}
+.btn{
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  background-color:transparent;
+  color:black;
+  border-color: #D6C0B3;
+  outline:none;
+  
+  
+}
+
+#next{
+  padding: 15px 40px 15px 40px;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+  background-color:#AB886D;
+  color:black;
+  border-color: #AB886D;
+  margin-left: 100px;
+  margin-top: 10px;
+  outline:none;
+
+
+}
+#next:hover{
+  background-color: #493628;
+  color:#D6C0B3;
+  border-color:#D6C0B3;
+}
+#dots{
+  color:#493628;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.il{
+  color:black;
+  font-size: 100px;
+  margin-top:130px;
+  margin-left: 110px;
+}
+.app{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color:#493628;
+  text-align: center;
+
+}
+
+.app1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 450;
+    font-size: 17px;
+    color: #333;
+    text-align: right;
+
+}
+
+
+
+@media (max-width: 445px) {
+    .main-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #493628; 
+  }
+  
+
+@media (max-width: 445px) {
+    .social-media-icons {
+        bottom: -200px; 
+    }
+
+    .main-dev {
+        position: relative;
+      }
+    
+      .social-icons {
+        position: absolute;
+        bottom: 2px;  
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;  
+        justify-content: center;
+      }
+    
+}
+
+
