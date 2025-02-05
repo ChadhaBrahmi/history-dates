@@ -68,7 +68,7 @@ function nextQuestion(no) {
   opt2.textContent = quizQuestions[no].choice2;
   opt3.textContent = quizQuestions[no].choice3;
   opt4.textContent = quizQuestions[no].choice4;
-  startTimer(3000);
+  startTimer(10000);
 }
 
 var z = setInterval(function () {
